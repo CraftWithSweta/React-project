@@ -1,6 +1,14 @@
-function Test(){
-    return(
-        <h1>This is test</h1>
-    )
+import React from 'react'
+import Button from './Button'
+
+const Test = () => {
+  return (
+    <>
+    <Button name="Register"/>
+    <Button name="Login"/>
+    <Button name="Logout"/>
+    </>
+  )
 }
-export default Test;
+
+export default Test
